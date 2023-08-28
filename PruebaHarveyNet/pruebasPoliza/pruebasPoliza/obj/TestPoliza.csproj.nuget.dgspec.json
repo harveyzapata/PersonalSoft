@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/pruebasPoliza/pruebasPoliza/TestPoliza.csproj": {}
+  },
+  "projects": {
+    "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/PruebaHarveyNet/PruebaHarveyNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/PruebaHarveyNet/PruebaHarveyNet.csproj",
+        "projectName": "PruebaHarveyNet",
+        "projectPath": "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/PruebaHarveyNet/PruebaHarveyNet.csproj",
+        "packagesPath": "/Users/angiezapata/.nuget/packages/",
+        "outputPath": "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/PruebaHarveyNet/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angiezapata/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/pruebasPoliza/pruebasPoliza/TestPoliza.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/pruebasPoliza/pruebasPoliza/TestPoliza.csproj",
+        "projectName": "TestPoliza",
+        "projectPath": "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/pruebasPoliza/pruebasPoliza/TestPoliza.csproj",
+        "packagesPath": "/Users/angiezapata/.nuget/packages/",
+        "outputPath": "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/pruebasPoliza/pruebasPoliza/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angiezapata/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/PruebaHarveyNet/PruebaHarveyNet.csproj": {
+                "projectPath": "/Users/angiezapata/Projects/PruebaTecnicaPolizas/PruebaHarveyNet/PruebaHarveyNet/PruebaHarveyNet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
